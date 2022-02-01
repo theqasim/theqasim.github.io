@@ -1,0 +1,91 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+
+
+.start {
+    width: 500px;
+    height: 460px;
+    position: relative;
+    margin: auto;
+}
+
+
+#hey {
+    font-size: 35px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-align: center;
+    top: 300px;
+    right: 20px;
+}
+
+#name {
+    font-size: 35px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-align: center;
+    top: 290px;
+    right: 20px;
+}
+
+#scroll {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-align: center;
+    top: 290px;
+}
+
+.button {
+    width: 50;
+    height: 50;
+    left: 860px;
+    position: relative;
+    top: -20px;
+}
+
+.button:hover{
+    opacity: .5;
+    
+}
+
+#twitter {
+    right: 10px;
+
+}
+
+#youtube {
+    right: 10px;
+    
+}
+
+
+
+
+
+  
+q {font-style: italic; color: white; font-family: 'Montserrat', sans-serif;}
+  
+.author {color: rgb(255, 255, 255); font-family: 'Montserrat', sans-serif;}
+  
+
+footer {
+    position: fixed;
+    bottom: 10;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+ }
