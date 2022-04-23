@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+    <title>Opensea Monitor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<!DOCTYPE html>
+<html>
+
+
+<body>
+    <div class="sidenav">
+        <a href="../about.html" class="animate__animated animate__fadeInLeft animate__faster">About</a>
+        <a href="../projects.html" class="animate__animated animate__fadeInLeft animate__faster">Projects</a>
+        <a href="../testimonials.html" class="animate__animated animate__fadeInLeft animate__faster">Testimonials</a>
+        <a href="../contact.html" class="animate__animated animate__fadeInLeft animate__faster">Contact</a>
+        <a href="Muhammad-Qasim-CV.pdf" download>Resume</a>
+    </div>
+    <div class="main">
+        <div class="breakdowns">
+            <h1 class="animate__animated animate__fadeInUp"><u>Opensea Monitor</u></h1>
+            <img src="../Resources/os-monitor-azuki-example.png" id="nft-bot-help-image" class="animate__animated animate__fadeInRight">
+            <p class="animate__animated animate__fadeInUp">
+                This project allowed me to develop a lot of understanding when it came to how Javascript works and how I can use Discord to achieve my goal. Once again, this project was targeted at NFT communities as the ability to monitor a NFT collections sales or
+                listings is quite useful. I had developed a few methods previously to complete this product but there were not great solutions. One of the issues I ran into originally was that I had no way to keep track of when a user executed a command,
+                as the command would contain the collection and what is being monitored about that collection. At first I thought storing it locally on the file server would be the only way, but I then looked further into the DiscordJS documentation and
+                figured out how to separate different command executions so that I can execute as many commands as I want without the code overlapping. The next issue was ensuring that the user does not get rate-limited as I am using the Opensea API to
+                retrieve the events that are taking place with the collections. I combatted this issue by introducing API key rotation within the code, as well as utilizing an interval based system to ensure I wasn't constantly checking for events. The
+                code is dynamic and it is based on the user entering the slug for the NFT collection. You also can end the monitoring process at any time by clicking the red button attached to the embed that appears after executing the command. Below
+                is a demonstration of the commands and on the right side you can see a sample image when the command is being used.
+            </p>
+            <video controls class="breakdown-video animate__animated animate__fadeInUp ">
+                    <source src="../Resources/os-monitor.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+            </video>
+
+        </div>
+    </div>
+</body>
+
+</html>
